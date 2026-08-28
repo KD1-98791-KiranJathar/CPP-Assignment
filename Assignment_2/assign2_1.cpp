@@ -23,20 +23,12 @@ class Valumeofbox {
         this->height=value;
 
     }
-
-
     void printValume(){
         double val=length*breadth*height;
         cout<<"volume of box :"<<val;
-
-        
+    
     }
-
-
-
 };
-
-
 
 int menulist (void ){
     int choice;
@@ -51,9 +43,6 @@ int main() {
 
     int choice;
     
-    
-  
-
     while ((choice = menulist()) != 0) {
 
         switch (choice) {
